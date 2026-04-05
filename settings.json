@@ -3,7 +3,7 @@
   "bot-account": {
     "username": "imgonnacream",
     "password": "",
-    "type": "online"
+    "type": "offline"
   },
   "server": {
     "ip": "Unknowexis.aternos.me",
@@ -47,9 +47,9 @@
     }
   },
   "movement": {
-    "enabled": false,
+    "enabled": true,
     "circle-walk": {
-      "enabled": false,
+      "enabled": true,
       "radius": 4,
       "speed": 3000
     },
@@ -64,14 +64,14 @@
   },
   "modules": {
     "avoidMobs": true,
-    "combat": false,
-    "beds": false,
+    "combat": true,
+    "beds": true,
     "chat": true,
     "console-commands": true
   },
   "combat": {
-    "attack-mobs": false,
-    "auto-eat": false
+    "attack-mobs": true,
+    "auto-eat": true
   },
   "beds": {
     "pick-up-day": false,
@@ -82,7 +82,7 @@
     "webhookUrl": "YOUR_DISCORD_WEBHOOK_URL_HERE",
     "events": {
       "connect": true,
-      "disconnect": false,
+      "disconnect": true,
       "chat": false
     }
   },
